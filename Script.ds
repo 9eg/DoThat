@@ -1,0 +1,21 @@
+// This is an example script file.
+// It will read all of the stuff below and perform the action.
+// This script file is an example of a valid script also.
+
+START NOTEPAD
+WAIT 1500
+SENDKEYS Hello, World!
+WAIT 1500
+SHELL TASKKILL /F /IM NOTEPAD.EXE
+WAIT 1500
+PLAYSOUND ASTERISK
+WAIT 1500
+PLAYSOUND BEEP
+WAIT 1500
+PLAYSOUND EXCLAMATION
+WAIT 1500
+PLAYSOUND HAND
+WAIT 1500
+PLAYSOUND QUESTION
+WAIT 1500
+MESSAGE HELLO :)
