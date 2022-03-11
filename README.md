@@ -16,6 +16,8 @@ SENDKEYS Hello, World!
 
 This example script will start the 'Notepad' program, wait 1500 milliseconds, and finally, send a key-stroke consisting of "Hello, World!" to the active window. This happens to be the Notepad program. Please note that DoThat does not activate the administrator prompt or "UAC" / User Account Control. This means it works without administrator required. This also means you will not be able to perform administrative tasks.
 
+**DoThat does not have multi-script support as of now. DoThat only works via one script. This one script should be properly named as 'Script.ds' and nothing else. Support for more scripts and custom names may be added in the near-future.*
+
 # 🛠 Compiling DoThat
 DoThat was coded in SharpDevelop. We know, we know, this IDE is very out-dated and discontinued, but Visual Studio is not my suited environment. I won't go into a rant, but it's requirement for a Microsoft account after 30 days is not my favorite feature.
 
